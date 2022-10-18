@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+ 
+    <center><h2>LATIHAN SOAL</h2></center>
+  
+    {% for materi in title %}
+    <li>{{materi}}</li>
+    {% endfor %}
+  
+{% endblock %}
